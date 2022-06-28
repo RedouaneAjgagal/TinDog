@@ -1,0 +1,148 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+#title{
+    background-color: #556b2f;
+    color: #fff;
+    min-height: 80vh;
+}
+hr{
+    border: solid 1px #c2c2c2;
+    border-top: none;
+    margin: 0;
+}
+.container-fluid{
+    padding: 1rem 6rem;
+}
+.nav-item{
+    padding: 0 30px;
+}
+.iphone-img{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.left-side{
+    margin: 100px 0;
+}
+.download-btn-apple{
+    margin-right: 4px;
+    
+}
+.top-container{
+    align-items: center;
+}
+#features{
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.features-head{
+    font-size: 1.5rem;
+}
+.features-text{
+    width: 70%;
+    margin: 0 auto;
+    color: #8f8f8f;
+}
+.features-icon{
+    margin: 10px 0;
+}
+.feature-icon{
+    color: #556b2f;
+    font-size: 60px;
+}
+.feature-icon:hover{
+    color: #5c7a27;
+}
+#testimonials{
+    background-color: #779642;
+    color: #fff;
+    text-align: center;
+}
+.testimonials-img{
+    border-radius: 100%;
+    width: 6%;
+    margin-right: 15px;
+}
+#press{
+    padding: 70px 0;
+    text-align: center;
+    background-color: #779642;
+}
+.press-img{
+    margin: 20px 30px 0;
+    width: 12%;
+}
+.price-title{
+    font-size: 2.5rem;
+}
+.pricing-border{
+    padding: 20px;
+}
+.signup-btn{
+    background-color: #779642;
+    border-color: #779642;
+}
+.signup-btn:hover{
+    background-color: #556b2f;
+    border-color: #556b2f;
+}
+.signup-btn-outline{
+    border-color: #556b2f;
+    color: #556b2f;
+}
+.signup-btn-outline:hover{
+    background-color: #556b2f;
+    border-color: #556b2f;
+    color: #fff;
+}
+#cta{
+    padding: 50px;
+    text-align: center;
+    background-color: #556b2f;
+}
+.cta-header{
+    line-height: 1.5;
+    width: 45%;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.cta-btn{
+    padding: 10px 25px;
+    margin: 0 5px 20px;
+}
+#footer{
+    padding-top: 80px;
+}
+
+/* media query */
+@media (max-width: 992px) {
+    .iphone-img {
+        display: none;
+    }
+    .left-side{
+        text-align: center;
+    }
+}
+@media (max-width: 853px) {
+    .cta-header{
+        width: 80%;
+        margin: 20px auto 50px;
+    }
+}
