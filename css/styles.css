@@ -1,5 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
 h1, h2, h3 {
@@ -16,15 +19,11 @@ h1{
 #title{
     background-color: #556b2f;
     color: #fff;
-    min-height: 80vh;
 }
 hr{
     border: solid 1px #c2c2c2;
     border-top: none;
     margin: 0;
-}
-.container-fluid{
-    padding: 1rem 6rem;
 }
 .nav-item{
     padding: 0 30px;
@@ -46,8 +45,6 @@ hr{
 }
 #features{
     padding: 20px 0;
-    position: relative;
-    z-index: 1;
     background-color: #fff;
 }
 .features-head{
@@ -139,10 +136,19 @@ hr{
     .left-side{
         text-align: center;
     }
+    .featured-ico{
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
 }
 @media (max-width: 853px) {
     .cta-header{
         width: 80%;
         margin: 20px auto 50px;
+    }
+}
+@media (max-width: 575px) {
+    .featured-icon{
+        margin-top: 48px;
     }
 }
